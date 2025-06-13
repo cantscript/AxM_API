@@ -5,7 +5,7 @@ Automation of creating and validing tokens when working with the AxM API based o
 <img width="512" alt="CantScript Logo" src="https://github.com/cantscript/LocalJamfSchoolVariables/blob/main/CantScript_Full_DotComV7.png">
 </p>
 
-To find out more about this project check out the post "Automating Token Generation for Apple School Managers New API" on my blog CantScript.com
+To find out more about this project check out the post ["Automating Token Generation for Apple School Managers New API"](https://cantscript.com/posts/automating-token-generation-for-apple-school-managers-new-api/) on my blog [CantScript.com](https://cantscript.com)
 
 -----
 ### The Solution
