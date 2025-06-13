@@ -75,3 +75,13 @@ Notice that as part of the setup with didn't run the `create_access_token.sh`? T
 The next part is up to you! How you interact with AxM and the automations and workflow you create is actually the hard part and the part that gets the job done. 
 
 If you haven't already seen, here are the [Apple Documents for the [ASM Endpoints](https://developer.apple.com/documentation/appleschoolmanagerapi) or [ABM Endpoints](https://developer.apple.com/documentation/applebusinessmanagerapi)
+
+
+---
+### A Quick Note
+
+Although the scripts take care of keeping the `Access Token` valid, I didn't actually build in any "self renewal" of the `Client Assertion`. If this becomes invalid due to being over 180 days old, everything will just exit and error out. 
+
+So if you need to renew this, run `AxM-API/AutomationScript/create_client_assertion.sh` again. 
+
+_"You took the time to self renew the `Access Token` so why not the `Client Assertion`"_. Great Question! I just didn't, at least not today. Maybe next time I have a few minutes and I don't have a project Im not working on
